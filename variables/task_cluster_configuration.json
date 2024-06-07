@@ -1,0 +1,18 @@
+{
+  "master_config": {
+    "num_instances": 3,
+    "machine_type_uri": "n2-highmem-8",
+    "disk_config": {
+      "boot_disk_type": "pd-ssd",
+      "boot_disk_size_gb": 50
+    }
+  },
+  "worker_config": {
+    "num_instances": 11,
+    "machine_type_uri": "n2-highmem-8",
+    "disk_config": {
+      "boot_disk_type": "pd-ssd",
+      "boot_disk_size_gb": 50
+    }
+  }
+}
