@@ -11,9 +11,9 @@ from datetime import timedelta
 from airflow.models import Variable, Pool
 import json
 
-PROJECT_ID = 'myapi-383419'
-CLUSTER_NAME = 'test-cluster-zero'
-REGION = 'us-central1'
+PROJECT_ID = 'PROJECT_ID'
+CLUSTER_NAME = 'CLUSTER_NAME'
+REGION = 'REGION'
 
 default_args = {
     'owner': 'airflow',
