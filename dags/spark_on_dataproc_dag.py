@@ -7,8 +7,8 @@ from airflow.sensors.time_delta import TimeDeltaSensorAsync
 from airflow.utils.dates import days_ago
 from airflow.models import Pool
 
-PROJECT_ID = 'myapi-383419'
-REGION = 'us-central1'
+PROJECT_ID = 'PROJECT_ID'
+REGION = 'REGION'
 CLUSTER_NAME = "{{ dag_run.conf['cluster_name'] }}"
 
 default_args = {
